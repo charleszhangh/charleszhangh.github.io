@@ -1,0 +1,117 @@
+<link href="style.css" rel="stylesheet" type="text/css">
+
+<html>
+<head>
+    <title>sup</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
+    <script src="morpher.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+
+</head>
+<body>
+    <div class="loading_cont">
+        <div id="memoji"></div> 
+
+        <!--<svg version="1.1" xmlns="http://www.w3.org/2000/svg" id="loader">
+
+            <defs>
+                <filter id="goo">
+                    <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10" />
+                    <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+                    <feBlend in2="goo" in="SourceGraphic" result="mix" />
+                </filter>
+                <linearGradient id="MyGradient">
+                        <stop offset="5%"  stop-color="#CFEFFC"/>
+                        <stop offset="40%" stop-color="#CFEFFC"/>
+                        <stop offset="100%" stop-color="#CFEFFC"/>
+                </linearGradient>
+            </defs>
+            <mask id="maska">
+                <g class="blobs">
+                    <circle class="blob" cx="60%" cy="35%" r="18%"  transform="rotate(0) translate(0, 0) rotate(0)"/>
+                    <circle class="blob" cx="50%" cy="22%" r="19%"  transform="rotate(0) translate(0, 0) rotate(0)"/>
+                </g>
+            </mask>
+            <rect x="0" y="0"  mask="url(#maska)" fill="url(#MyGradient)">
+
+        </svg>	
+
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" id="loader2">
+
+            <defs>
+                <filter id="goo">
+                    <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10" />
+                    <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+                    <feBlend in2="goo" in="SourceGraphic" result="mix" />
+                </filter>
+
+                <linearGradient id="MyGradient2">
+                        <stop offset="5%"  stop-color="#CFEFFC"/>
+                        <stop offset="40%" stop-color="#CFEFFC"/>
+                        <stop offset="100%" stop-color="#CFEFFC"/>
+                </linearGradient>
+            </defs>
+
+            <mask id="maskb">
+                <g class="blobs">
+                    <circle class="blob" cx="50%" cy="50%" r="21%"  transform="rotate(0) translate(0, 0) rotate(0)"/>
+                    <circle class="blob" cx="44%" cy="30%" r="24%"  transform="rotate(0) translate(0, 0) rotate(0)"/>
+                </g>
+            </mask>
+            <rect x="0" y="0"  mask="url(#maskb)" fill="url(#MyGradient2)">
+
+                </svg>-->
+    </div>
+    
+    <div id="about" class="container">
+        <h1>Charles Zhang</h1>
+        <div id="description">            
+            <div id="sections">
+                <p id ="me"class="tab" onclick="showMe()">me</p>
+                <p id="current" class="tab" onclick="showCurrent()">current</p>
+                <p id="past" class="tab" onclick="showPast()">past</p>
+                <p id="reading" class="tab" onclick="showReading()">reading</p>
+                <p id="follow" class="tab" onclick="showFollow()">follow</p>
+
+
+            </div>
+            <div id="info">
+                <u1 class="sectionInfo" id="meInfo">I'm Charles. I'm a senior at Penn, studying finance and computer science. Previously worked on mobility prototypes at IDEO, civic engagement and data transparency at USAFacts, and climate research at the Council on Foreign Relations. Incoming product manager at Dropbox in August of 2020.</u1>
+                <u1 class="sectionInfo" id="currentInfo">
+                    <li>Editing documentary on water scarcity in Bhutan as NatGeo explorer</li>
+                    <li>Reading Winner Takes All and Intelligent Investor</li>
+                </u1>
+                <u1 class="sectionInfo" id="pastInfo">
+                    <li>Locomo</li>
+                    <li>Opinion piece on Scientific American</li>
+                    <li>Article for the Council on Foreign Relations</li>
+                    <li>Urban Analytics</li>
+                    <li>Gender Inequality and Global Food Security</li>
+                    <li>Hult Prize</li>
+                </u1>
+                <u1 class="sectionInfo" id="readingInfo">
+                    <li>The Bard on the Ward</li>
+                    <li>The Bleak Truth Behind My 'Inspiring' Path From Oakland to Yale</li>
+                    <li>Tribal World: Group Identity Is All</li>
+                    <li>Isaac Asimov Asks, "How Do People Get New Ideas?"</li>
+                </u1>
+                
+                <u1 class="sectionInfo" id="followInfo">
+                    <li>Facebook</li>
+                    <li>Instagram</li>
+                    <li>LinkedIn</li>
+                    <li>Twitter</li>
+                </u1>
+
+            </div>
+        </div>
+
+    </div>
+</body>
+<script src="script.js" type="text/javascript"></script>
+</html>
