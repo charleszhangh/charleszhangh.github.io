@@ -1,4 +1,4 @@
-@media only screen and (min-width: 992px) {
+@media only screen {
     body {
          margin: 0;
          height: 100vh;
@@ -80,6 +80,10 @@
         color: #2b2d2f;
         font-family: Oswald;
     }
+    
+    #location {
+        padding-left: 1%;
+    }
 
     #description {
         display:block;
@@ -95,6 +99,7 @@
         width: 15%;
         position: relative;
         float: left;
+        padding-top: .5%;
     }
     
     .tab {
@@ -107,7 +112,9 @@
     }
     
     .tab:hover {
-        background-color: #D4FF51;
+        /*background-color: #D4FF51;*/
+        background: linear-gradient(180deg, rgba(212,255,81,0) 65%, #D4FF51 65%);
+
         color: 2b2d2f !important;
     }
     
@@ -138,7 +145,7 @@
     }
     
     .highlight {
-        background-color: #D4FF51;
+        background: linear-gradient(180deg, rgba(212,255,81,0) 65%, #D4FF51 65%);
         /*background-image: linear-gradient(#fff 60%, #D4FF51 55%);*/
 
     }
@@ -149,6 +156,13 @@
     position: absolute;
     right: 0;
     top: 0;
+    }
+        
+    a {
+        background: linear-gradient(180deg, rgba(212,255,81,0) 65%, #D4FF51 65%);
+        color: inherit !important;
+        text-decoration: none !important;
+    }
 }
     
     
