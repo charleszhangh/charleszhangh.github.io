@@ -4,10 +4,10 @@
          margin: 0;
          height: 100vh;
          overflow: hidden;
-         background: -webkit-linear-gradient(left top, #ffafbd , #ffc3a0);
-         background: -o-linear-gradient(bottom right, #ffafbd, #ffc3a0);
-         background: -moz-linear-gradient(bottom right, #ffafbd, #ffc3a0);
-         background: linear-gradient(to bottom right, #ffafbd, #ffc3a0);
+         background: -webkit-linear-gradient(left top, #9600ff , #aebaf8);
+         background: -o-linear-gradient(bottom right, #9600ff , #aebaf8);
+         background: -moz-linear-gradient(bottom right, #9600ff , #aebaf8);
+         background: linear-gradient(to bottom right, #9600ff , #aebaf8);
         padding-bottom: 4%;
         padding-left: 5%;
         padding-right: 5%;
